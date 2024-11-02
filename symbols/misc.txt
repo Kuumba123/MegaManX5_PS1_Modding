@@ -1,0 +1,5 @@
+LoadLevel = 0x80013674;
+
+SetupLayerSettings = 0x80027238;
+SetupPriority = 0x8002906c;
+SetupSpawn = 0x8002acc4;

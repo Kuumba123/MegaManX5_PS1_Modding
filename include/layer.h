@@ -12,11 +12,12 @@ void DrawLayer(int layer);
 void DumpActiveScreens();
 void DumpLayerScreens(int layer); //BG1-3
 
-void LoadTiles(int id,short x,short y);
-void LoadTiles2(int id,short x,short y); //Not Permanet
+//void LoadTiles(int id,short x,short y);
+//void LoadTiles2(int id,short x,short y); //Not Permanet
 
 void ResetLayerPointers(int layer);
 
+/*
 typedef struct{
     int layer;
     uint16_t settings; // tttt ttti , T = TileCount I = Increament-X (if 1 Increament-X instead of Y)
@@ -25,7 +26,17 @@ typedef struct{
     uint16_t pad;
     uint8_t*tableP;
     int proceed;
-} tilesetStruct;
+} tilesetStruct;*/
+
+typedef struct{
+    int16_t x;
+    int16_t y;
+    uint16_t width;
+    uint16_t height;
+}TileTransfer;
+
+void TransferTiles(int layer,int16_t destX,int16_t destY,TileTransfer *spec);
+void TransferTiles2(int layer,int16_t destX,int16_t destY,TileTransfer *spec);
 
 typedef struct {
     undefined field0_0x0;

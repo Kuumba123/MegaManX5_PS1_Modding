@@ -1,1 +1,6 @@
+DefaultLayers = 0x8001e668;
+
+TransferTiles = 0x80028a20;
+TransferTiles2 = 0x80028b18;
+
 bgLayers = 0x8009a1f8;

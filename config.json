@@ -16,7 +16,8 @@
                     "common.txt",
                     "gpu.txt",
 					"object.txt",
-					"layer.txt"
+					"layer.txt",
+                    "misc.txt"
                 ],
                 "build_id": 1334
             }

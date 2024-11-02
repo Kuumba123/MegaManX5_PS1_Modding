@@ -8,11 +8,24 @@ CdRead = 0x800679e8;
 CdReadSync = 0x80067b84;
 CdSearchFile = 0x80063d08;
 
+ClearAll = 0x8002c50c;
+
+CopyClut = 0x8002c338;
+
 DrawLoad = 0x8001551c;
+DrawMMX5 = 0x800176dc;
+DrawMain = 0x800272b4;
+EndSong = 0x80017d88;
 
 FadeIn = 0x80013288;
 FadeOut = 0x800132f8;
 FileCollect = 0x800157d4;
+FileCollect2 = 0x80014064;
+
+PlaySound = 0x80016490;
+PlaySong = 0x800177b0;
+
+
 
 strcpy = 0x8006c258;
 memcpy = 0x8006c268;
@@ -26,7 +39,13 @@ DeleteThread = 0x80012eac;
 DeleteThread2 = 0x80012f00;
 
 buttonsHeld = 0x800c931c;
+buttonsHeldPast = 0x800c931e;
 buttonsPressed = 0x800c9320;
+
+buttonsHeld2 = 0x800c9488;
+buttonsHeldPast2 = 0x800c948a;
+buttonsPressed2 = 0x800c948c;
+
 fadeDirection = 0x8009a424;
 frameCount = 0x8009a420;
 freeArcP = 0x800be9a8;

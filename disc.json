@@ -12,6 +12,83 @@
           "address": "0x80010000",
           "offset": "0x800"
         }
+      ],
+      "ROCK_X5.BIN": [
+        {
+          "name": "bin",
+          "address": "0x80105000",
+          "offset": "0"
+        },
+        {
+          "name": "ST00_OVL",
+          "address": "0x800EE970",
+          "offset": "0x800"
+        },
+        {
+          "name": "ST04_OVL",
+          "address": "0x800EE970",
+          "offset": "0x43800"
+        },
+        {
+          "name": "ST05_OVL",
+          "address": "0x800EE970",
+          "offset": "0x5B800"
+        },
+        {
+          "name": "ST06_OVL",
+          "address": "0x800EE970",
+          "offset": "0x6F000"
+        },
+        {
+          "name": "ST06_1_OVL",
+          "address": "0x800EE970",
+          "offset": "0x74800"
+        },
+        {
+          "name": "ST07_OVL",
+          "address": "0x800EE970",
+          "offset": "0x81800"
+        },
+        {
+          "name": "ST0B_4_OVL",
+          "address": "0x800FA000",
+          "offset": "0x139000"
+        },
+        {
+          "name": "ST0C_OVL",
+          "address": "0x800EE970",
+          "offset": "0xA7800"
+        },
+        {
+          "name": "SIGMA_OVL",
+          "address": "0x800FA000",
+          "offset": "0x12C800"
+        },
+        {
+          "name": "SIGMA2_OVL",
+          "address": "0x800FA000",
+          "offset": "0x130800"
+        },
+        {
+          "name": "ST0D_OVL",
+          "address": "0x800EE970",
+          "offset": "0xB1800"
+        },
+        {
+          "name": "ST0E_OVL",
+          "address": "0x800EE970",
+          "offset": "0xBC000"
+        },
+        {
+          "name": "ST0F_OVL",
+          "address": "0x800EE970",
+          "offset": "0xBE000"
+        },
+        {
+          "name": "ST12_OVL",
+          "address": "0x800EE970",
+          "offset": "0xE5800"
+        }
       ]
     }
   ]
