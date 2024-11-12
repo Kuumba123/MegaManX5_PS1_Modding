@@ -27,7 +27,7 @@ buffer = 0x1f800000;
 drawP = 0x8009e794;
 drawSettings = 0x800c9328;
 
-rectBufferp = 0x800be9b0;
+rectBuffer = 0x800be9b0;
 rectCount = 0x1f80011c;
 
 primP = 0x1f800100;
