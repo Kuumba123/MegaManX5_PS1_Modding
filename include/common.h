@@ -80,7 +80,7 @@ typedef struct {
     undefined field40_0x3f;
     uint8_t startingSong; /* 0 = Song Started Playing */
     undefined field42_0x41;
-    undefined field43_0x42;
+    int8_t maverickShow;
     bool songOff;
     uint8_t player;
     uint8_t lives;
@@ -88,7 +88,7 @@ typedef struct {
     uint8_t maxHPs[2];
     uint8_t armorType;
     uint8_t armors;
-    undefined field51_0x4b;
+    bool ultimateArmor; /* gotten the armor*/
     uint8_t clearedStages;
     undefined field53_0x4d;
     undefined field54_0x4e;

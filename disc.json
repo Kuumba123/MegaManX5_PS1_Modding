@@ -60,19 +60,14 @@
           "offset": "0xA7800"
         },
         {
-          "name": "SIGMA_OVL",
-          "address": "0x800FA000",
-          "offset": "0x12C800"
-        },
-        {
-          "name": "SIGMA2_OVL",
-          "address": "0x800FA000",
-          "offset": "0x130800"
-        },
-        {
           "name": "ST0D_OVL",
           "address": "0x800EE970",
           "offset": "0xB1800"
+        },
+        {
+          "name": "ST0D_1_OVL",
+          "address": "0x800EE970",
+          "offset": "0xBA000"
         },
         {
           "name": "ST0E_OVL",
@@ -88,6 +83,16 @@
           "name": "ST12_OVL",
           "address": "0x800EE970",
           "offset": "0xE5800"
+        },
+        {
+          "name": "SIGMA_OVL",
+          "address": "0x800FA000",
+          "offset": "0x12C800"
+        },
+        {
+          "name": "SIGMA2_OVL",
+          "address": "0x800FA000",
+          "offset": "0x130800"
         }
       ]
     }
