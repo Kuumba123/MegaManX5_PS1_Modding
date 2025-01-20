@@ -23,6 +23,7 @@ FileCollect = 0x800157d4;
 FileCollect2 = 0x80014064;
 
 PlaySound = 0x80016490;
+TurnOffSound = 0x80016d54;
 PlaySong = 0x800177b0;
 
 
