@@ -501,6 +501,7 @@ Object* GetItemObject();
 Object* GetLayerObject();
 Object* GetMainObject();
 Object* GetMiscObject();
+int GetObjectSlot(int8_t id);
 int GetRNG();
 Object* GetQuadObject();
 Object* GetShotObject();

@@ -7,7 +7,7 @@ DeleteObject3 = 0x8002d6fc;
 DisplayObject = 0x8002d89c;
 
 GetShotObject = 0x8002d0e4;
-
+GetObjectSlot = 0x8002b5b4;
 GetRNG = 0x8002df78;
 
 OffScreenCheck = 0x8002d800;
