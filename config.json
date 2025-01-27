@@ -21,6 +21,19 @@
                 ],
                 "build_id": 1334
             }
-        }
+        },
+        {
+            "japanese": {
+              "name": "RMX5.bin",
+              "symbols": [
+                "common_jp.txt",
+                "gpu_jp.txt",
+                "object_jp.txt",
+                "layer_jp.txt",
+                "misc_jp.txt"
+              ],
+              "build_id": 86666
+            }
+          }
     ]
 }

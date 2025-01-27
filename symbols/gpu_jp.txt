@@ -1,0 +1,33 @@
+ClearOTagR = 0x80069ed0;
+
+DrawOTag = 0x80069fd8;
+DrawOTag2 = 0x8006c41c;
+
+DrawSync = 0x800699e4;
+
+VSync = 0x800641f8;
+
+ClearImage = 0x80069b68;
+ClearImage2 = 0x80069bf8;
+ClearOTag = 0x80069e08;
+LoadImage = 0x80069c90;
+LoadImage2 = 0x8006c100;
+StoreImage = 0x80069cf0;
+StoreImage2 = 0x8006c1ec;
+MoveImage = 0x80069d50;
+MoveImage2 = 0x8006c2d8;
+
+PutDispEnv = 0x8006a214;
+PutDrawEnv = 0x8006a048;
+
+SetDefDispEnv = 0x8006c628;
+SetDefDrawEnv = 0x8006c568;
+
+buffer = 0x1f800000;
+drawP = 0x8009fc74;
+drawSettings = 0x800ca800;
+
+rectBuffer = 0x800bfe90;
+rectCount = 0x1f80011c;
+
+primP = 0x1f800100;

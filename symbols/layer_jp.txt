@@ -1,0 +1,10 @@
+DefaultLayers = 0x8001fad8;
+
+TransferTiles = 0x80029e84;
+TransferTiles2 = 0x80029f7c;
+
+bgLayers = 0x8009b6d8;
+
+layoutWidth = 0x800d3294;
+layoutHeight = 0x800d3295;
+layoutSize = 0x80093238;

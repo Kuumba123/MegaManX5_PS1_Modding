@@ -1,0 +1,15 @@
+mega = 0x8009b580;
+
+AnimeAdvance = 0x800186b8;
+
+DeleteObject = 0x8002ebc4;
+DeleteObject3 = 0x8002eb60;
+DisplayObject = 0x8002ed00;
+
+GetShotObject = 0x8002e548;
+GetObjectSlot = 0x8002ca18;
+GetRNG = 0x8002f3dc;
+
+OffScreenCheck = 0x8002ec64;
+
+SetAnime = 0x80018658;

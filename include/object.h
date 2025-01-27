@@ -433,7 +433,7 @@ extern Mega mega;
 #define posY *(int16_t *)((int)&objP->y + 2)
 
 /*Object Memory Regions*/
-#if BUILD != 561 //North American Version
+#if BUILD == 1334 //North American Version
 
 #define EFFECT_OBJECT_ADDR 0x8009E7A0
 #define ITEM_OBJECT_ADDR 0x800C6A10
@@ -447,15 +447,15 @@ extern Mega mega;
 
 #else //Japanese version
 
-#define EFFECT_OBJECT_ADDR 0x80143078
-#define ITEM_OBJECT_ADDR 0x80165b10
-#define LAYER_OBJECT_ADDR 0x80169d70
-#define ENEMY_OBJECT_ADDR 0x8013bfb0
-#define MISC_OBJECT_ADDR 0x80173d58
-#define QUAD_OBJECT_ADDR 0x80143690
-#define SHOT_OBJECT_ADDR 0x8013f408
-#define VISUAL_OBJECT_ADDR 0x8013e5f0
-#define WEAPON_OBJECT_ADDR 0x801407d8
+#define EFFECT_OBJECT_ADDR 0x8009fc80
+#define ITEM_OBJECT_ADDR 0x800c7ef0
+#define LAYER_OBJECT_ADDR 0x800ca980
+#define ENEMY_OBJECT_ADDR 0x80093570
+#define MISC_OBJECT_ADDR 0x800d3418
+#define QUAD_OBJECT_ADDR 0x800a0e80
+#define SHOT_OBJECT_ADDR 0x80095878
+#define VISUAL_OBJECT_ADDR 0x80098278
+#define WEAPON_OBJECT_ADDR 0x80099600
 
 #endif //////////////
 
