@@ -128,14 +128,8 @@ typedef struct {
     uint16_t virusModeCount;
     uint8_t bossLevel;
     uint8_t virusMeterTemp;
-    undefined field91_0xc2;
-    undefined field92_0xc3;
-    undefined field93_0xc4;
-    undefined field94_0xc5;
-    undefined field95_0xc6;
-    undefined field96_0xc7;
-    undefined field97_0xc8;
-    undefined field98_0xc9;
+    uint8_t enigmaRNG[4];
+    uint8_t shuttleRNG[4];
     undefined field99_0xca;
     undefined field100_0xcb;
     uint8_t armorPartsPast; /* for Mission Complete Screen??? */
